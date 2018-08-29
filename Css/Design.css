@@ -1,0 +1,287 @@
+body{
+	padding: 0;
+	margin: 0;
+	border: none;
+
+}
+
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.xvc-header{
+	opacity: 0.99;
+	z-index: 10;
+	position: fixed;
+	font-size: 100%;
+	margin-top: 0;
+	box-sizing: border-box;
+	width: 100%;
+	  box-shadow:0 1px 5px rgba(1, 1, 1, 0.5), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+	height: 7%;
+	background-color: rgba(255,255,255,0.9);
+
+}
+.xvc-header{
+	margin-top: -5%;
+}
+.xvc-header h3{
+z-index: 5;
+position: relative;
+	font-size: 1.6vw;
+	height: 100%;
+margin:0;
+width: 12%;
+margin-left: 1.5%;
+text-align: center !important;
+display: inline-block;
+}
+.xvc-header h3 a{
+	color:#000;
+	transition: all 0.5s;
+	font-size: 1.8vw;
+	text-decoration: none;
+        display: inline-block;
+}
+.xvc-header h3:after{
+	top:100%;
+   content: '';
+width: 100%;
+   height:10%;
+   background-color: #3498DB;
+   transform: scaleX(0);
+  transition: all 0.4s;
+display: block;
+}
+.xvc-header h3:hover:after{
+	transform: scaleX(1);
+}
+.xvc-header h3:hover .h3s{
+	color:#3498DB;
+}
+
+.xvc-header h3 ul{
+	opacity: 1;
+	z-index: 9999;
+	top: 100%;
+	 box-shadow:0 1px 1px rgba(1, 1, 1, 0.5), 0 0 2px rgba(0, 0, 0, 0.1) inset;
+	text-align: center;
+transition:  all 300ms ease-in-out;
+  width: 100%;
+  height: 0%;
+	background-color:rgba(255,255,255,0.9);
+	position: absolute;
+
+}
+.xvc-main .middles{
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+}
+.xvc-header ul li{
+	z-index: 999;
+	margin-top: 20%;
+	list-style: none;
+	transition: all 0.2s;
+	 text-align: left;
+	 display: none;
+	 margin-left: -45%;
+	 text-align: center;
+}
+.xvc-header h3:hover ul{
+	height: 370%;
+}
+.xvc-header h3:hover ul li{
+	display: block;
+}
+
+.xvc-header ul li:hover a{
+	color:#3498DB;
+}
+#sub-menu li a{
+	z-index: 100;
+	font-size: 1.5vw;
+}
+#sub-menu{
+margin: 0;
+}
+#Chuyen{
+	width: 14%;
+}
+#Chuyen ul li a:hover{
+  color:#884EA0;
+}
+#Chuyen:after{
+	background-color: #884EA0;
+}
+#Chuyen:hover .h3s{
+	color:#884EA0;
+}
+
+.xvc-footer{
+	vertical-align: baseline;
+	width: 100%;
+	height: 23%;
+
+	background-color: #273746;
+}
+.xvc-footer .cmt{
+	padding-top:2%;
+	
+	color:#fff;
+text-align: center;
+	font-size: 1.8vw;
+
+}
+.xvc-main{
+	margin-top: 5%;
+
+	position: relative;
+	margin-left: 2%;
+	margin-right: 2%;
+    height: 80%;
+    overflow: hidden;
+    background: #000;
+}
+.xvc-main1{
+	height: 100%;
+	width: 100%;
+	background-image: url('https://thewallpaper.co/wp-content/uploads/2016/10/1080p-Desktop-Backgrounds-free-Download-1-hd-desktop-wallpapers-cool-images-amazing-download-apple-background-wallpapers-windows-colourfull-display-1920x1080-768x432.jpg');
+  
+}
+
+.transparent{
+	background-image: linear-gradient(to bottom,#D8B5FF , #05B7B4);
+opacity: 0.4;
+}
+ .transparent{
+	
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}
+.xvc-children a{
+padding-top:85%;
+padding-left: 5%;
+	color:#fff;
+	z-index: 5;
+	opacity: 10;
+	text-decoration: none;
+	height: 100%;
+	width: 100%;
+font-size: 2vw;
+position: absolute;
+}
+.gioi-thieu{
+	width: 20%;
+	font-size: 2vw;
+
+}
+.gach:after{
+	top:100%;
+   content: '';
+width: 70%;
+   height:0.5%;
+  transition: all 0.4s;
+display: block;
+	background-color: #E74C3C;
+}
+#hidden1{
+	margin-left: 0;
+	float: left;
+
+	width: 40%;
+	height: 100%;
+	background-color: #fff;
+	overflow: hidden;
+	position: relative;
+}
+.hidden2{
+	
+	display: inline;
+
+	width: 40%;
+	height: 30%;
+}
+.xvc-children{
+background-position: center center;
+	position: relative;
+ cursor: pointer;
+	transition: all 0.4s;
+	background-size: cover;
+  background-repeat: no-repeat;
+}
+.xvc-main2{
+	background-image:url('https://image.thanhnien.vn/1600/uploaded/vietthong/2017_06_13/thumb_jouo.jpg') ;
+
+	width: 30%;
+	height: 50%;
+
+}
+.xvc-children:hover{
+	transform:scale(1.09);
+}
+.xvc-main1:hover:after{
+	transform: scale(1) !important;
+}
+.xvc-mains2{
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 5%;
+	
+	height: 100%;
+}
+.post{
+	margin-top: 5%;
+	height: 95%;
+	width: 100%;
+	
+}
+.post-children{
+transition: all 0.8s;
+	position: relative;
+	height: 60%;
+	width: 100%;
+	
+	background-repeat: no-repeat;
+	background-size: cover;	
+	background-position: center center; 
+}
+.post a:hover{
+color:#2E86C1;
+
+}
+.post a{
+	font-size: 1.8vw;
+	text-decoration: none;
+	color:#000;
+	padding-top:60%;
+	text-decoration: none;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+    font-weight: bold;
+    z-index: 5;
+    transition: all 0.5s;
+}
+.post-parent{
+	box-shadow: 0,2,5,10,rgba(0,0,0,0.2), 0,2,5,10,rgba(0,0,0,0.2), 0,2,5,10,rgba(0,0,0,0.2), 0,2,5,10,rgba(0,0,0,0.2);
+	margin-left: 5%;
+
+	box-sizing: border-box;
+	background-color: #000;
+	height: 43%;
+	width: 30%;
+	overflow: hidden;
+}
+
+.post-black{
+	background-image: linear-gradient(to bottom,rgba(0,0,0,0.1),rgba(0,0,0,5));
+}
+.post-inline div{
+  display: inline-block;
+}

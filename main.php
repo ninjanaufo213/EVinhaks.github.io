@@ -11,7 +11,8 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <link rel="stylesheet" href="Css/Design.css">
         <script src="https://code.nath.co/src/jQuery.min.js"></script>
-    <script src="https://rawgit.com/nathco/jQuery.scrollSpeed/master/jQuery.scrollSpeed.js"></script>
+   
+
 
 
 
@@ -30,6 +31,7 @@
    
 
 <div class="row">
+	
       <div id="hidden1" class="hidden2 col-sm" style="height: 40%;">
      	<div class="xvc-main1 xvc-children" style="background: url('http://imdev.vn/wp-content/uploads/2015/10/Sublime-text.jpg')">
 
@@ -37,8 +39,15 @@
      		<a href="" style="padding-top:40%;">Sublime text - Editor cho dân front-end</a>
      	</div>
        </div>
+  <div class=" ss3s" style="width:20% ;display: inline-block;">
+      <div id="hidden1" class="hidden2 col-sm" style="height: 100%;position: absolute;">
+     	<div class="xvc-main1 xvc-children" style="background: url('http://imdev.vn/wp-content/uploads/2015/10/Sublime-text.jpg')">
 
-<div class="w-100"></div>
+     		<div class="transparent transparent1"></div>
+     		<a href="" style="padding-top:40%;">Sublime text - Editor <br>cho dân front-end</a>
+     	</div>
+       </div>  
+</div>
  <div id="hidden1" class="hidden2 col-sm " style="height: 35%;">
      	<div class="xvc-main1 xvc-children" style="background: url('https://vnhax.com/img/products/vnhax/vnhax_main.png')">
 
@@ -47,17 +56,10 @@
      	</div>
        </div>
 
-        
+          
+</div>  
 </div>
-<div class="row" style="margin: 0;float: right;">
-	<div id="hidden1" class="hidden2 col-md-4 offset-md-4 " style="height: 35%;">
-     	<div class="xvc-main1 xvc-children" style="background: url('https://vnhax.com/img/products/vnhax/vnhax_main.png')">
 
-     		<div class="transparent transparent1"></div>
-     		<a href="" style="padding-top:35%;">Vn-hax - hack cf giá rẻ</a>
-     	</div>
-       </div>
- </div>
 </div>
 
 </div>
@@ -65,37 +67,52 @@
 
 
      <div class="xvc-mains2">
+      
+     	
 
-     	<center>
-     		<p class="gioi-thieu gach">Bài viết</p>
-     	</center>
+     	<div class="post col-lg-9 col-md-9 col-sm-9 col-xs-9" style="display: inline-block;" id="center">
 
-     	<div class="post">
-
-
+         <div class="top-boxp">
+         <li class="top-box" style="font-weight: 100;font-family: 'Roboto',sans-serif;">Bài viết </li>
+      
+         </div>
+         
      		<div class="post-inline">
-     		<div class="post-parent"  style="background-color: #fff;">
+     		<div class="post-parent"  style="">
      			
-     		   <div class="post-children" style="background-image: url('https://viettut.com/wp-content/uploads/2018/02/mysql-server-logo.png')">
+     		   <a href=""  class="imgs "><img height="80%" width="100%" src="https://viettut.com/wp-content/uploads/2018/02/mysql-server-logo.png" alt=""></a>
      			  
-     			  <a href="" style="">Tạo đăng nhập autoit,php và mysql</a> 
+     			  <a href="" style="" id="titless"><br>Tạo đăng nhập autoit,php và mysql</a> 
                </div>
 
      		</div>
 
-     		<div class="post-parent col" style="background-color: #fff;">
+     		<div class="post-parent " style="">
      			
-     		   <div class="post-children" style="background-image: url('https://vnhax.com/img/products/vnhax/vnhax_main.png')">
-     			  
-     			  <a href="" style="">Vn-hax,hack cf giá rẻ</a> 
-               </div>
-
+                <a href="" class="imgs">
+                	<img class="imgs"  height="80%" width="100%" src="http://vnhax.com/img/products/vnhax/vnhax_main.png" alt="">
+                	</a>
+                     			  
+     			 
+               
+ <a href="" style="" id="titless"><br>Vn-hax,hack cf giá rẻ</a>
      		</div>
+     		
+
+     		
      	</div>
 
 
-
+<div class="contact">
+	<div class="contact-child">
+		<center><li class="hovers" style="">Liên hệ<br></li></center>
+		<center><a href="https://www.facebook.com/groups/2318750818142137/" style="color:#04A6DB;">Group</a></center>
+		<center><a href="https://www.facebook.com/vinhdemons" style="color:#04A6DB;">Admin</a></center>
+		<center><a href="https://www.facebook.com/ToolsAutoIt" style="color:#04A6DB;">Admin 2</a></center>
+	</div>
 </div>
+</div>
+
      </div>
 
      <script>

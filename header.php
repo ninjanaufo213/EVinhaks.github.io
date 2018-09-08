@@ -10,7 +10,7 @@
 	
 		
 		<h3 class="
-		" style="width: 13%;"><a href="" class="h3s"><br><i class="fa fa-shield"></i> MOD CF</a>
+		" style="width: 13%;"><a href="" class="h3s"><i class="fa fa-shield"></i> MOD CF</a>
 
          <center>
 		<ul id="sub-menu">
@@ -23,7 +23,7 @@
 		</h3>
 
 		<h3 id="Chuyen">
-			<a href="" class="h3s"><br><i class="fa fa-bath"></i> Chém gió</a>
+			<a href="" class="h3s"><i class="fa fa-bath"></i> Chém gió</a>
 		
 	   <center>
 	   <ul id="sub-menu">
@@ -34,7 +34,7 @@
 	   </center>
 	   </h3>
 	   <h3 style="left: 50%;width: 8%;font-size: 2vw;">
-	   <a href="https://www.facebook.com/groups/2318750818142137" class="h3s"><br>Group</a>
+	   <a href="https://www.facebook.com/groups/2318750818142137" class="h3s">Group</a>
 	   </h3>
 
 

@@ -9,16 +9,42 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <link rel="stylesheet" href="Css/Design.css">
         <script src="https://code.nath.co/src/jQuery.min.js"></script>
-        
-        <div class="mainpost shadow">
-        	<h3 class="title">Title <br></h3>
-        	<div class="post-tr">
-        		<p class="post-data">Mới sớm nay, chúng tôi phát hiện anh <a href="https://www.facebook.com/Hao1233215">Trần Hữu Hào</a> lợn trong xóm.Trước đó anh đã thủ sẵn 1 chai rocket 1h <br><br></p>
+        <?php 
+include 'header.php';
+        ?>
+        <style>
+        	.xvc-header{
+        		margin-top: 0;
+        	}
+        </style>
+        <div class="mainpost">
+        <div class="header-post">	
+        	<h1 class="title" >Must Follow 16 Best Web Design Blogs In 2018<br>
+        		<p class="ngaythang">8/9/2018</p>
+        	</h1>
+        </div>
+        	
+        	<div class="post-tr ">
+        		<p class="post-data">Nếu như bạn là 1 người chơi của tựa game đột kích thì chắc hẳn bạn phải ám ảnh với những người chơi sử dụng phần mềm thứ 3 rồi. <br>Hôm nay mình sẽ giới thiệu "Công cụ" của những người chơi gian lận đó. <br>
+            Đó là 1 phần mềm mang tên "Vn-hax"
+
+            
+            </p>
         		<center>
-        		<img src="http://vui.stem.vn/wp-content/uploads/2018/04/dung-noi-ngu-nhu-lon-vi-lon-rat-thong-minh.jpg" alt="" > <li style="font-size: 13px;">Hình ảnh con lợn gợi tình</li></center>
+        		<img height="500" width="500" src="http://vnhax.com/img/products/vnhax/vnhax_main.png" alt="" > <li style="font-size: 13px;">Hình ảnh bản hack</li></center>
+            <p class="post-data">
+              Bản hack này có thể được dùng vào các mục đích:
+              <ul>
+                <li>1. Săn đồ AI</li>
+                <li>2. Chơi C4</li>
+                <li>3. Quẩy tung lồn bọn zombie</li>
+              </ul>
+              <br>Không nói nhiều nữa các bạn có thể download bản hack này <a href="http://vnurl.xyz/zOk6TE">Tại đây</a>
+            </p>
         	</div>
         </div>
-      <div class="other">
-      	
+         <div class="other">
+         	
+         </div>
       </div>
 </body>

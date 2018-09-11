@@ -1,7 +1,9 @@
 
 
+<body>
 
-	<div class="xvc-footer">
-		<p class="cmt">Mọi thắc mắc vui lòng liên hệ <a href="fb.com/vinhdemons">Admin</a></p>
-		
-	</div>
+	<footer class="xvc-footer">
+
+	 <p style="line-height: 6vw;padding-left: 33%;">© 2018 Copyright Coderxvc</p>
+	</footer>
+	</body>
